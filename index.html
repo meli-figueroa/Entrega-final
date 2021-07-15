@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tejidos Mechi, diseños a pedido</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <meta name="description"
+        content="Producción artesanal de tejidos a crochet y dos agujas. Diseños propios y personalizados a pedido.">
+    <meta name="keywords"
+        content="tejidos personalizados, tejidos a crochet, tejidos a dos agujas, tejidos de lana, tejidos de hilo de algodón" />
+</head>
+
+
+<body class="estilosGenerales">
+    <header class="header">
+        <h1 class="header__tituloPagina">Tejidos Mechi</h1>
+
+        <nav class="nav" id="Seccion-2-barra-navegacion">
+            <ul>
+                <li class="nav__linkMisCreaciones"><a href="#Mis-creaciones">Mis creaciones</a></li>
+                <li class="nav__linkSobreMi"><a href="#Sobre-mi">Sobre mí</a></li>
+                <li class="nav__linkQuieroTejido"><a href="#Quiero-un-tejido">Pedir un tejido</a></li>
+            </ul>
+        </nav>
+
+        <div class="menuCelu">
+            <span>Menú</span>
+            <div class="menuCelu__secciones">
+                <ul>
+                    <li class="nav__linkMisCreaciones"><a href="#Mis-creaciones">Mis creaciones</a></li>
+                    <li class="nav__linkSobreMi"><a href="#Sobre-mi">Sobre mí</a></li>
+                    <li class="nav__linkQuieroTejido"><a href="#Quiero-un-tejido">Pedir un tejido</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <section class="misCreaciones" id="Mis-creaciones">
+        <h2 class="misCreaciones__tituloSeccion">Mis Creaciones</h2>
+        <div class="misCreaciones__parrafoSeccion">
+            <p>
+                Estos son algunos de los tejidos que realicé.</p>
+            <p>
+                Si alguno te interesa o querés pedir uno personalizado, no dudes en contactarme.
+
+            </p>
+
+            <p>♥ </p>
+        </div>
+        <article class="imagenesCreaciones">
+            <img class="imagenesCreaciones__img1" src="./media/Mi-creacion-1.jpg" alt="Manta color nude, con bolitas">
+            <img class="imagenesCreaciones__img2" src="./media/Mi-creacion-2.jpg" alt="Conejito blanco amigurumi">
+            <img class="imagenesCreaciones__img3" src="./media/Mi-creacion-3.jpg"
+                alt="Manta en varios tonos de color rosa">
+        </article>
+    </section>
+
+
+    <section class="sobreMi" id="Sobre-mi">
+        <h2 class="sobreMi__tituloSeccion">Sobre Mí</h2>
+        <article class="presentación">
+            <img class="presentación_imgSobreMi" src="./media/Sobre-mi-perfil.jpg"
+                alt="Mechi (mujer rubia de 55 años) tejiendo y sonriendo">
+
+            <div class="presentación_textoSobreMi">
+                <p>
+                    Hola! Soy Mechi y este año decidí armar mi emprendimiento para compartir y vender mis tejidos.
+                </p>
+                <p>
+                    Hago productos de lana y de hilo de algodón. Algunos son ideas propias y otros a pedido.
+                </p>
+
+                <p>La producción es totalmente manual y artesanal, por lo que puede ser más lenta pero también
+                    mucho
+                    más
+                    consciente.
+                </p>
+                <p>
+                    Me encuentro en Córdoba pero con esta página intento llegar a mucho más rincones.</p>
+                <p>
+                    Muchas gracias por leer! ☺
+                </p>
+            </div>
+        </article>
+    </section>
+
+
+    <section class="quieroTejido" id="Quiero-un-tejido">
+        <h2 class="quieroTejido__tituloSeccion">Pedir un tejido</h2>
+        <p class="quieroTejido__textoForm">
+            ¿Querés un tejido personalizado?  Completá este formulario:
+        </p>
+
+        <form class="gridsForm">
+            <label class="nombre" for="nombre">
+                <h3>Nombre:</h3>
+            </label>
+            <input class="campoNombre" type="text" name="nombre" placeholder="Ej: Juan Perez" required>
+
+            <label class="telefono" for="telefono">
+                <h3>Teléfono:</h3>
+            </label>
+            <input class="campoTelefono" type="number" name="telefono" placeholder="Ej: 012-3456789" required>
+
+            <label class="email" for="email">
+                <h3>Email:</h3>
+            </label>
+            <input class="campoEmail" type="text" name="email" placeholder="Ej: juan@mail.com">
+
+            <h3 class="detallePedido">¿Qué tejido te gustaría?</h3>
+            <textarea class="campoDetallePedido" placeholder="Ej: Quiero una bufanda" required></textarea>
+
+            <h3 class="tipoEnvio">¿Qué preferís?</h3>
+            <div class="opcionEnviar">
+                <label for="retirar">Retiro mi pedido</label>
+                <input class="retirar" type="radio" name="retirar" value="retira-pedido">
+
+                <label for="enviar">Envío a domicilio</label>
+                <input class="enviar" type="radio" name="enviar" value="enviar-pedido">
+            </div>
+
+            <div id="botones" class="botones">
+                <input class="limpiar" type="reset" value="Limpiar datos">
+                <input class="enviar" type="submit" value="Enviar mi pedido">
+            </div>
+        </form>
+    </section>
+
+
+    <footer class="footer" id="Seccion-6-Pie-de-pagina">
+        <h2 class="footer__textoContacto">¡Sigamos en contacto!</h2>
+        <a class="footer__instagram" href="https://www.instagram.com/" target="_blank"><img class="instagram__logoIg"
+                src="./media/logo-instagram.png" alt="Logo de instagram">Instagram</a>
+        <a class="footer__facebook" href="https://www.facebook.com/" target="_blank"><img class="instagram__logoFb"
+                src="./media/logo-facebook.png" alt="Logo de instagram">Facebook</a>
+        <a class="footer__whatsapp" href="https://web.whatsapp.com/" target="_blank"><img class="instagram__logoWpp"
+                src="./media/logo-whatsapp.png" alt="Logo de instagram">WhatsApp</a>
+    </footer>
+
+    <footer class="footerCelu" id="Seccion-6-Pie-de-pagina">
+        <h2 class="footerCelu__textoContacto">¡Sigamos en contacto!</h2>
+        <a class="footerCelu__instagram" href="https://www.instagram.com/" target="_blank" ><img
+                class="instagram__logoIgCelu" src="./media/logo-instagram.png" alt="Logo de instagram"></a>
+        <a class="footerCelu__facebook" href="https://www.facebook.com/" target="_blank"><img
+                class="instagram__logoFbCelu" src="./media/logo-facebook.png" alt="Logo de instagram"></a>
+        <a class="footerCelu__whatsapp" href="https://web.whatsapp.com/" target="_blank"><img
+                class="instagram__logoWppCelu" src="./media/logo-whatsapp.png" alt="Logo de instagram"></a>
+    </footer>
+
+</body>
+
+</html>
